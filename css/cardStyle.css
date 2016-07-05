@@ -1,0 +1,65 @@
+/*
+Name:  Hyeonjin Lee
+Assignment:  Assignment 1
+Date:  February 10 2015
+
+Page Description: the main styles for this application
+Files: index.html - the main page for displaying whole contents on the screen.
+       myHelp.html - the second page linked by main page for giving information
+                     how to play this game.
+       cardscript.js - the main script for this application
+*/
+h1 {
+    text-align: center;
+}
+div#cardPack { 
+    background: antiquewhite;  
+    border:grey 2px solid;
+    width: 550px;
+    height: 370px;
+    padding: 10px;
+    float: left;
+    margin-left: 200px;
+} 
+div#cardPack > div {
+    background: url(../images/imagesm.jpg) no-repeat ;
+    background-size: 81px 81px;
+    float: left;
+    margin: 5px;
+    width: 81px;
+    height: 81px;
+}
+div#side {
+    width: 100px;
+    float: left;
+}
+div#result {
+    border: solid 2px grey;
+    background: coral;  
+    width: 102px;
+    height: 210px;
+    float: left;
+}   
+div#help {
+    border: solid 2px grey;
+    float: left;
+}
+div#winHelp {
+    background: coral;
+    border: solid 2px grey;
+}
+div#side > button {
+    font-weight: bold;
+    font-size: 20px;
+    width: 106px;
+    height: 70px
+}
+div#helpB > button {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 130px;
+}
+div > p {
+    font-size: 18px;
+}

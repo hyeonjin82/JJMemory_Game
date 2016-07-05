@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!--
+Name:  Hyeonjin Lee
+Assignment:  Assignment 1
+Date:  February 10 2015
+
+App Description: This application is Memory Game matching two card selected. 
+                 After you make all card match, you can get a score and time.
+Page Description: the main page for displaying whole contents on the screen.
+Files: myHelp.html - the second page linked by main page for giving information
+                     how to play this game.
+       cardStyle.css - the main styles for this application
+       cardscript.js - the main script for this application
+-->
+<html>
+    <head>
+        <title> Memory Game </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/cardStyle.css"/>
+        <script type="text/javascript" src="js/cardscript.js"></script>     
+    </head>
+    <body>
+        <h1> Memory Match Game</h1>
+        <div id="cardPack"></div>
+        <div id="side">
+            <div id="help"><img src="images/images.jpg" alt="" onclick="openWin()"></div>
+            <button onclick="gameStart()"> Game Go </button>
+            <div id="result"></div>
+        </div>
+    </body>
+</html>
